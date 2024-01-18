@@ -219,5 +219,10 @@ DevEco Studio默认工程中未自动生成AbilityStage，AbilityStage文件的�
 
 
 ## 基础组件
+基础组件、容器组件、媒体组件、绘制组件、画布组件。
+其中基础组件是视图层的基本组成单元，包括Text、Image、TextInput、Button、LoadingProgress等
 
-### 
+### Text
+ Text组件用于在界面上展示一段文本信息，可以包含子组件Span
+
+ 
