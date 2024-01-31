@@ -224,5 +224,3 @@ DevEco Studio默认工程中未自动生成AbilityStage，AbilityStage文件的�
 
 ### Text
  Text组件用于在界面上展示一段文本信息，可以包含子组件Span
-
- 

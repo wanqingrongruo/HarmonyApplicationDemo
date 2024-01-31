@@ -17,7 +17,6 @@ struct Index {
       }
       .width('90%')
       .height(64)
-
       .justifyContent(FlexAlign.SpaceBetween)
       .alignItems(VerticalAlign.Center)
 
@@ -37,7 +36,7 @@ struct Index {
           }
         }, item => JSON.stringify(item))
       }.width('90%')
-      .height('100%')
+      .height('200')
 
       Button('添加子目标', { type: ButtonType.Capsule, stateEffect: true })
         .width('50%')
@@ -45,6 +44,11 @@ struct Index {
         .fontSize(16)
         .fontWeight(FontWeight.Medium)
         .backgroundColor('#007DFF')
+
+      Image($r('app.media.found'))
+        .width('100')
+        .height('100')
+        .borderStyle(BorderStyle.Dashed).borderWidth(1).borderColor(0xAFEEEE).borderRadius(10)
     }
     .width('100%')
     .height('100%')
